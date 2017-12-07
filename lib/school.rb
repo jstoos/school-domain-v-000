@@ -28,5 +28,5 @@ binding.pry
   def sort(name, year)
     roster[year][name].sort
   end
-  
+
 end
