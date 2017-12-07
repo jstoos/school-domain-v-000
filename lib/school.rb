@@ -26,8 +26,7 @@ class School
   end
 
   def sort(name, year)
-binding.pry
-    roster[year][name].sort
+    roster[year][name]
   end
 
 end
