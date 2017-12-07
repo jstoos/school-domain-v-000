@@ -25,7 +25,7 @@ class School
     roster[year]
   end
 
-  def sort(name, year)
+  def sort
     roster[year][name]
   end
 
