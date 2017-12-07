@@ -26,7 +26,12 @@ class School
   end
 
   def sort
-    roster[year][name]
+    roster.each do |year, data|
+        data.each do |name|
+          (sort names)
+        end
+    end
+    roster
   end
 
 end
