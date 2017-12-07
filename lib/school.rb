@@ -24,8 +24,9 @@ class School
   def grade(year)
     roster[year]
   end
-binding.pry
+
   def sort(name, year)
+    binding.pry
     roster[year][name].sort
   end
 
